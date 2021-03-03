@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/welcome')
 def index():
     """welcome"""
 
@@ -19,7 +19,7 @@ def index():
     """
 
 
-@app.route('/home')
+@app.route('/welcome/home')
 def home():
     """ home page """
 
@@ -35,7 +35,7 @@ def home():
     """
 
 
-@app.route('/back')
+@app.route('/welcome/back')
 def back():
     """ welcome back """
 
